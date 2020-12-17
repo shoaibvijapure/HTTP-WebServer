@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <form
+  method="POST"
+  action="domain/route/param?query=value">
+  <input type="hidden" name="_method" value="PUT">
+  <input type="hidden" name="put_id" value="1" />
+  <input type="text" name="put_name" value="content_or_not" />
+  <div>
+    <button name="update_data">Save changes</button>
+    <button name="remove_data">Remove</button>
+  </div>
+</form>
+<hr>
+<form method="DELETE" action="domain/route/param?query=value">
+  <input type="hidden" name="delete_id" value="1" />
+  <input type="text" name="delete_name" value="content_or_not" />
+  <button name="delete_data">Remove item</button>
+</form>
+</head>
+<body>
+
+</body>
+</html>
