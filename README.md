@@ -1,15 +1,16 @@
 MIS - 141808009 (Individual/No Partner)
+
 Name - Shoaib Vijapure
 
-Project Title: HTTP WEBSERVER
+### Project Title: HTTP WEBSERVER
 
-Preferred Browser: Mozilla FireFox
+##### Preferred Browser: Mozilla FireFox
 
 Resources Used - RFC 2616, https://www.tutorialspoint.com/http, StackOverFlow, Python Documentation.
 Developer has very basic level of knowledge in python, so implementation is based on basic python programming and socket programming.
 All parameters of the project and considerations are based on the RFC & resources mentioned. 
 
-##### Server Supports:
+#### Server Supports:
 1. HTTP Methods: GET, POST, PUT, DELETE, HEAD, CONNECT. (respective files)
 2. Log file handling with levels of logging. (Filename - serverlog.log)
 3. Server Configuration, config file to config server with DocumentRoot. (config.ini & config.py)
